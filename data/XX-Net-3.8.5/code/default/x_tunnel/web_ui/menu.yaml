@@ -1,0 +1,20 @@
+module_title: X-Tunnel
+menu_sort_id: 3
+sub_menus: {
+  1:{
+    title: {{ _( "Config" ) }},
+    url: config
+  },
+  2:{
+    title: {{ _( "Status" ) }},
+    url: status
+  },
+  3:{
+    title: {{ _("Log") }},
+    url: logging
+  },
+  4:{
+    title: {{ _("Cloudflare Front Log") }},
+    url: cloudflare_front_logging
+  }
+}

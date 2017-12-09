@@ -1,0 +1,9 @@
+language: zh_CN
+modules:
+  gae_proxy: {auto_start: 1, show_detail: 1}
+  launcher: {allow_remote_connect: 1, control_port: 8085, last_run_version: 3.8.5,
+    proxy: pac, xxnet_port: 8087}
+  smart_router: {auto_start: 1}
+  x_tunnel: {auto_start: 1}
+no_mess_system: 1
+update: {last_path: /data/xxnet/code/default/launcher, uuid: 86fc99a0-3a44-43f6-b5b4-44f471432010}
