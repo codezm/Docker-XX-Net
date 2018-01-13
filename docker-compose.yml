@@ -1,13 +1,13 @@
 version: '2.1'
 services:
-    debian:
-        build: ./
+    xxnet:
+        build: .
         image: xxnet
         container_name: xxnet
         working_dir: /data
         ports:
             - "8085:8085"
-            #- "8086:8086"
+            - "8086:8086"
             - "8087:8087"
             - "1080:1080"
         sysctls:
