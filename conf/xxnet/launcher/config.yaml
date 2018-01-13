@@ -6,4 +6,3 @@ modules:
   smart_router: {auto_start: 1}
   x_tunnel: {auto_start: 1}
 no_mess_system: 1
-update: {last_path: /data/xxnet/code/default/launcher, uuid: 86fc99a0-3a44-43f6-b5b4-44f471432010}
