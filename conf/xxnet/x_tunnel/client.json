@@ -1,6 +1,6 @@
 {
     "socks_host": "0.0.0.0",
     "socks_port": 1080,
-    "login_account": "xxnet@github.org", 
-    "login_password": "MTIzNDU2Nzg5MA"
+    "login_account": "",
+    "login_password": ""
 }
