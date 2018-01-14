@@ -4,7 +4,7 @@
 
 ## 使用
 ### Docker Hub 「 推荐 」
-    docker pull codezm/xx-net
+    docker pull codezm/xxnet
 
 ### 自定义之 Dockerfile:
 - 创建镜像
