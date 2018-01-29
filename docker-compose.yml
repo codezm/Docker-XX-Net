@@ -12,5 +12,10 @@ services:
             - "1080:1080"
         sysctls:
             - net.ipv6.conf.all.disable_ipv6=0
+        volumes:
+            - ./conf/supervisord/supervisord.conf:/etc/supervisord.conf
+            - ./conf/xxnet/gae_proxy/manual.ini:/data/xxnet/data/gae_proxy/manual.ini
+            - ./conf/xxnet/launcher/config.yaml:/data/xxnet/data/launcher/config.yaml
+            - ./conf/xxnet/x_tunnel/client.json:/data/xxnet/data/x_tunnel/client.json
         privileged: true
         restart: always
