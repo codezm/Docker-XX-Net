@@ -12,7 +12,8 @@ before_install:
     - sudo mv docker-compose /usr/local/bin
 
 script:
-    - docker-compose up
+    - docker-compose up -d
 
 after_script:
     - docker ps -a
+    - docker images
