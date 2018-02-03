@@ -1,4 +1,4 @@
-## 主要特性
+## 主要特性 [![Build Status](https://travis-ci.org/codezm/Docker-XX-Net.svg?branch=master)](https://travis-ci.org/codezm/Docker-XX-Net)
 - 镜像基于 `debian:jessie` 创建, 由 `supervisord` 守护运行 `XX-Net` + `miredo` (开启ipv6 - 基于ipv4通道)。
 - 可随意更换 `XX-Net` 版本。
 
