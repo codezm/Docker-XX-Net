@@ -52,7 +52,8 @@ docker cp xxnet:/data/xxnet/SwitchyOmega/SwitchyOmega.crx ./
 
 ## 疑难问题:
 - 若提示 `请检查浏览器代理设置` 需确认 `CA.crt` 导入本机并已 **完全信任** 。
-
+- [GoAgent配置文件说明](https://github.com/XX-net/XX-Net/wiki/GoAgent-Config-file)。
+- [PAC地址](http://127.0.0.1:8086/proxy.pac)
 
 ## 帮助 [XX-Net](https://github.com/XX-net/XX-Net) 项目
 https://github.com/XX-net/XX-Net/wiki/How-to-contribute

@@ -1,8 +1,8 @@
 FROM debian:jessie
 
 # Defined XX_Net Version.
-ARG XX_NET_VERSION="3.8.7"
-ARG XX_NET_SHA1=d146dae11fe91f545edca466ac649d8d5245a02d
+ARG XX_NET_VERSION="3.12.11"
+ARG XX_NET_SHA1="da3c5badfca4829986fc01f03ee60c3839e839eb"
 
 RUN set -ex; \
     { \
@@ -24,7 +24,7 @@ RUN set -ex; \
     && localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8 \
     && pip install supervisor
 
-COPY conf/xxnet/gae_proxy/manual.ini /data/xxnet/data/gae_proxy/manual.ini
+COPY conf/xxnet/gae_proxy/config.json /data/xxnet/data/gae_proxy/config.json
 COPY conf/xxnet/launcher/config.yaml /data/xxnet/data/launcher/config.yaml
 COPY conf/xxnet/x_tunnel/client.json /data/xxnet/data/x_tunnel/client.json
 COPY conf/supervisord/supervisord.conf /etc/supervisord.conf
