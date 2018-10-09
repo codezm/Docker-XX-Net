@@ -3,7 +3,7 @@
 - 可随意更换 `XX-Net` 版本。
 
 ## 使用
-### Docker Hub 「 推荐 」
+### [Docker Hub](https://hub.docker.com/r/codezm/xxnet) 「 推荐 」
 ```bash
 docker pull codezm/xxnet
 ```
